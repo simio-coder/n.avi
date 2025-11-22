@@ -1,0 +1,21 @@
+🐲 Protocolo de Retorno de Ciclo Operacional (PRCO)
+
+El PRCO (El Gran Circuito del Actor) es una secuencia de diez hexagramas que define la Gestión del Ciclo de Vida (LCM) del actor, desde la activación de la identidad hasta la recalibración del motor.
+
+1. 🌐 La Secuencia Completa del Ciclo
+
+La secuencia se compone de ocho transiciones directas, alternando entre los árbitros de Conflicto (6) y Espera (5), e involucrando a todos los Hexagramas de tu sistema:
+52C-6​2C-6​51C-6​57C-6​29C-6​30C-6​52E-5​58E-5​1
+Paso	Transición	Protocolo Involucrado	Función en el Macro-Ciclo	Rol del Hexagrama Mediador
+1	526​2	(Nueva)	Activación de la Identidad. El Perfil (52) se somete al Conflicto (6) para forzar la lectura Biometría (2).	6: Lógica de Seguridad (¿Es necesario iniciar la validación?).
+2	26​51	PVC	Validación Condicional. La Biometría (2) resuelve el Conflicto (6) y activa la Agenda (51).	6: Árbitro de Autenticación.
+3	516​57	PME	Mitigación de Ejecución. El Scheduler (51) pasa por el Conflicto (6) para asegurar un Flujo Suave (57) de logging.	6: Control de Concurrencia.
+4	576​29	PCF	Consolidación de Flujo. El Log (57) pasa por el Conflicto (6) para garantizar la Persistencia (29) segura.	6: Validación de Integridad.
+5	296​30	PMC	Manifestación Controlada. El Código (29) resuelve el Conflicto (6) para ser presentado al Streamer (30).	6: Control de Permisos.
+6	306​52	PDP	Definición de Perfil. La actividad del Streamer (30) es filtrada por el Conflicto (6) para actualizar el Perfil (52).	6: Filtro de Atributos (Cierre del Ciclo Interno).
+7	525​58	PPL	Perfilado de Latencia. El Perfil (52) se somete a la Espera (5) para retroalimentar la Interacción (58).	5: Gestor de Buffer de Feedback.
+8	585​1	PSP	Sincronización de Poder. La Interacción (58) se dosifica por la Espera (5) para recalibrar el Motor (1).	5: Válvula de Throttling (Recalibración del Ciclo).
+
+Hexagramas,Nombre del Estado (Técnico),Siglas,Idea / Concepto (Conceptual),Interpretación y Ámbito (Función)
+526​26​516​576​296​306​525​585​1,Protocolo de Retorno de Ciclo Operacional,PRCO,El Gran Circuito del Actor,
+"Bucle Completo. El Perfil (52) inicia la validación de seguridad a través del Conflicto (6). La acción resultante (2 → 51 → 57) es registrada (29) y manifestada (30), para actualizar el propio Perfil (52). El ciclo se cierra al enviar el feedback de la Interacción (58) al Motor (1)."
